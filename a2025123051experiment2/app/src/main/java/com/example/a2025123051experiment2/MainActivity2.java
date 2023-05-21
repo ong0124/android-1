@@ -23,6 +23,9 @@ public class MainActivity2 extends AppCompatActivity {
     }
 
     public void homeButton(View view){
-        setContentView(R.layout.activity_main);
+        findViewById<ImageView>(R.id.backButton).setOnClickListener(View.OnClickListener {
+            finish()
+        })
+//        setContentView(R.layout.activity_main);
     }
 }
